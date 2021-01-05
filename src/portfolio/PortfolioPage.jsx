@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function PortfolioPage () {
-  return (
-        <h1>Portfolio</h1>
-  )
+function PortfolioPage() {
+  return <h1>Portfolio</h1>;
 }
 
-export default PortfolioPage
+export default PortfolioPage;

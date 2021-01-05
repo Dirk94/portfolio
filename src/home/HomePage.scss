@@ -82,3 +82,20 @@
 .header-title {
     text-transform: uppercase;
 }
+
+.links {
+    margin-left: 32px;
+    position: relative;
+    top: 18px;
+
+    a {
+        color: rgba(255,255,255,0.9);
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 22px;
+
+        &:hover {
+            color: white;
+        }
+    }
+}

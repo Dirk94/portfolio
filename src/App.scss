@@ -1,0 +1,52 @@
+@import "./variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: $background-color;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 600;
+}
+
+.accent {
+    color: $accent-color;
+}
+
+.h-100vh {
+    padding: 100px 0;
+}
+
+p, a, ul, li {
+    font-size: 18px;
+    line-height: 1.625;
+    font-weight: 400;
+}
+
+.btn {
+    font-weight:600;
+}
+
+i {
+    margin-right: 8px;
+}
+
+
+

@@ -1,7 +1,7 @@
 import React from 'react';
 
 function PortfolioPage() {
-  return <h1>Portfolio</h1>;
+    return <h1>Portfolio</h1>;
 }
 
 export default PortfolioPage;

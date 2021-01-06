@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './HomePage.scss';
 import Me from '../assets/me.jpg';
 import useInterval from '../utils/interval';
+import { Link } from 'react-router-dom';
 
 const finalTitle = "I'm a Full-Stack Developer";
 
@@ -24,7 +25,7 @@ const HomePage = () => {
             </div>
             <div className={'col-md-8 a col-lg-6 align-self-center main-text'}>
                 <span className="greeting">
-                    Hi{' '}
+                    Hi
                     <span role="img" aria-label={'wave'}>
                         👋
                     </span>
@@ -44,10 +45,10 @@ const HomePage = () => {
                 </p>
 
                 <p>
-                    <button className={'btn btn-primary btn-portfolio'} href={'#'}>
+                    <Link to={'/portfolio'} className={'btn btn-primary btn-portfolio'} href={'#'}>
                         <i className="fas fa-briefcase"></i>
                         My Projects
-                    </button>
+                    </Link>
 
                     <span className={'links'}>
                         <a

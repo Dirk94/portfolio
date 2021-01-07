@@ -1,0 +1,66 @@
+@import '../variables';
+
+.project-details-container {
+    position: relative;
+    background: #252c48;
+    max-width: 1170px;
+    padding: 30px 45px!important;
+    text-align: left;
+
+    .header-area {
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 30px;
+
+        .project-title {
+            text-align: center;
+            padding-bottom: 8px;
+            font-size: 30px;
+            text-transform: uppercase;
+            line-height: 40px;
+        }
+    }
+
+    h5 {
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+    }
+
+    p, li, ul {
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.625;
+    }
+
+    .info-list {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            color: #fff;
+            line-height: 40px;
+        }
+
+        span {
+            color: #94A2C7;
+            font-weight: 600;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+
+    .image-container {
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    }
+
+    a {
+        color: $accent-color;
+    }
+}
+
+.popupbox-content {
+    padding: 0!important;
+}

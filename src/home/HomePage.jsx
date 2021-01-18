@@ -39,9 +39,11 @@ const HomePage = () => {
                 </h2>
 
                 <p className={'short-info'}>
-                    I have 5+ years of work experience. My favorite stack is Vue with Laravel, but
-                    I&apos;m happy to use other technologies. Founder of 3 tech companies of which 1
-                    was acquired in 2020.
+                    I&apos;m a full-stack developer with 3 years of work experience. I like building
+                    cool products that bring something positive into the world. I have worked mostly
+                    with Laravel and Vue, but I have also recently jumped the Golang hype-train.
+                    I&apos;m open, enthusiastic and driven. I have created numerous startups of
+                    which one was acquired in 2020.
                 </p>
 
                 <p>
